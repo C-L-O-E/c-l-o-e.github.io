@@ -1,3 +1,20 @@
 navigation{
     background-color: darkslategrey;
 }
+
+
+
+.navTopElement{
+    background-color: grey;
+}
+
+.navTopElement:hover{
+    background-color:cornflowerblue;
+}
+
+#ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+

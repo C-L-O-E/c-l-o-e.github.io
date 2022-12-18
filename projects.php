@@ -4,16 +4,11 @@
     <head>
         <title>My website</title>
         <link rel="stylesheet" href="projectStylesheet.css">
-        <link rel="stylesheet" href="navBar.css">
         
     </head>
 
     <body>
-        <nav id="navigation"> 
-            <ul>
-                <li><a>Projects</a></li>
-            </ul>
-        </nav>
+        <?php include 'menu.html'; ?>
         <content id="content">
             <h1>Projects page</h1>
             <a>Projects...</a>
